@@ -1,0 +1,37 @@
+digraph {
+	A [label=A]
+	B [label=B]
+	C [label=C]
+	D [label=D]
+	N0 [label=N0]
+	N1 [label=N1]
+	N2 [label=N2]
+	N3 [label=N3]
+	N4 [label=N4]
+	N5 [label=N5]
+	N6 [label=N6]
+	N7 [label=N7]
+	A -> B
+	A -> C
+	A -> N0
+	A -> N2
+	B -> A
+	B -> D
+	B -> N1
+	B -> N3
+	C -> A
+	C -> D
+	C -> N4
+	C -> N6
+	D -> C
+	D -> N5
+	D -> N7
+	N0 -> A
+	N1 -> B
+	N2 -> A
+	N3 -> B
+	N4 -> C
+	N5 -> D
+	N6 -> C
+	N7 -> D
+}
