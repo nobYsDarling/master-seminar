@@ -1,37 +1,42 @@
 digraph {
-	A [label=A]
-	B [label=B]
-	C [label=C]
-	D [label=D]
-	N0 [label=N0]
-	N1 [label=N1]
-	N2 [label=N2]
-	N3 [label=N3]
-	N4 [label=N4]
-	N5 [label=N5]
-	N6 [label=N6]
-	N7 [label=N7]
-	A -> B
-	A -> C
-	A -> N0
-	A -> N2
-	B -> A
-	B -> D
-	B -> N1
-	B -> N3
-	C -> A
-	C -> D
-	C -> N4
-	C -> N6
-	D -> C
-	D -> N5
-	D -> N7
-	N0 -> A
-	N1 -> B
-	N2 -> A
-	N3 -> B
-	N4 -> C
-	N5 -> D
-	N6 -> C
-	N7 -> D
+	rankdir=TB size="7.75,10.25"
+	N0 [label=N0 pos="2,6!"]
+	N1 [label=N1 pos="4,6!"]
+	N2 [label=N2 pos="0,4!"]
+	A [label=A pos="2,4!"]
+	B [label=B pos="4,4!"]
+	N3 [label=N3 pos="6,4!"]
+	N4 [label=N4 pos="0,2!"]
+	C [label=C pos="2,2!"]
+	D [label=D pos="4,2!"]
+	E [label=E pos="6,2!"]
+	N5 [label=N5 pos="8,2!"]
+	N6 [label=N6 pos="2,0!"]
+	N7 [label=N7 pos="4,0!"]
+	A -> B [color="#d62a00" penwidth=5]
+	A -> C [color="#16ea00" penwidth=2]
+	A -> N0 [color="#c43c00" penwidth=1]
+	A -> N2 [color="#4db300" penwidth=1]
+	B -> A [color="#6b9500" penwidth=1]
+	B -> D [color="#c33d00" penwidth=1]
+	B -> N1 [color="#51af00" penwidth=1]
+	B -> N3 [color="#f10f00" penwidth=1]
+	B -> E [color="#54ac00" penwidth=1]
+	C -> A [color="#ec1400" penwidth=1]
+	C -> D [color="#639d00" penwidth=1]
+	C -> N4 [color="#a35d00" penwidth=1]
+	C -> N6 [color="#837d00" penwidth=1]
+	D -> C [color="#8b7500" penwidth=1]
+	D -> E [color="#45bb00" penwidth=1]
+	D -> N7 [color="#6d9300" penwidth=1]
+	E -> D [color="#837d00" penwidth=1]
+	E -> N5 [color="#38c800" penwidth=1]
+	N0 -> A [color="#ff0100" penwidth=1]
+	N1 -> B [color="#a75900" penwidth=1]
+	N2 -> A [color="#fa0600" penwidth=1]
+	N3 -> B [color="#709000" penwidth=1]
+	N4 -> C [color="#8b7500" penwidth=1]
+	N5 -> E [color="#02fe00" penwidth=1]
+	N6 -> C [color="#d22e00" penwidth=1]
+	N7 -> D [color="#42be00" penwidth=1]
 }
