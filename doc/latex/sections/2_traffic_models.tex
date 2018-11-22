@@ -1,0 +1,49 @@
+\section{Verkehrsmodelle}
+
+Verkehrsmodelle bestehen zunächst aus dem Streckennetz oder Verkehrsgraph und den Teilnehmern. Natürlich kann es, je nach Anwendungsfall noch Sinn machen, noch andere Einflussfaktoren mit zu berücksichtigen, darauf wird jedoch im Folgenden jedoch verzichtet. Die Fragestellung: Wie lassen sich diese System in datenverarbeitenden Systemen abbilden?
+
+Bei Verkehrsflussporblemen gibt es zwei grundsätzliche Ansätze\footnote{Sven Maerivoet and Bart De Moor, 2008. Traffic Flow Theory. Department of Eletrical Engineering ESAT-SCD (SISTA), Katholieke Universiteit Leuven}
+\textsuperscript{,}
+\footnote{Springer, 2008. Traffic Flow for 1-D. Pedestrian Dynamics, Feedback Control of Crowd Evacuation}. Einmal die mikroskopischen Modelle\footnote{Wikipedia, \href{https://en.wikipedia.org/wiki/Microscopic\_traffic\_flow\_model}{Microscopic Traffic Flow Model}}, die das Gesamtsystem sehr feingranular abbilden. Sie basieren auf individuellem Verhalten und bilden Verkehrsteilnehmer als einzelne Objekte ab. Eine prominente Gruppe an Vertretern dieser Modelle sind die "Car-Following models"[6, 17, 57] in denen der Fahrer seine Beschleunigung an die Bedingungen vor ihm anpasst.
+Dem gegenüber stehen die makrsokopischen Modelle\footnote{Wikipedia, \href{https://en.wikipedia.org/wiki/Macroscopic\_traffic\_flow\_model}{Macroscopic Traffic Flow Model}}, die mehr Interesse an Durchschnittsverhalten haben. Sie betrachten etwas wie Verkehrsdichte und Durschnittsgeschwindigkeit.
+
+Mit dem mikroskopischen Ansatz ist eine sehr präzise Arbeit möglich, die jedoch viel Rechenleistung erfordert, da die Position jedes Objekt in jedem Schritt neu berechnet werden muss. Wohingegen die makroskopischen Ansätze zwar etwas unpräziser sind, dafür, weil sie weniger Details haben, entsprechend günstiger im Bezug auf die benötigte Rechenleistung.
+
+
+\subsection*{Mikroskopische Modelle}
+In contrast to macroscopic models, microscopic traffic flow models simulate single vehicle-driver units, so the dynamic variables of the models represent microscopic properties like the position and velocity of single vehicles.
+
+We present the well known car-following microscopic traffic flow model. In [93], a 2-D version of this model was used for pedestrian flow in 2-D space. To derive the 1-D model, first assume cars can not pass each other. Then the idea is that a car in 1-D can move and accelerate forward based on two parameters; the headway distance between the current car and the one in front, and their speed differ- ence. Hence, it is called following, where a car from behind follows the one in front, and this is the anisotropic property. This property is also desirable in macroscopic models, since it reflects the actual observed behavior of traffic flow [23].
+Suppose the nth car location is xn(t), then the nonlinear model is given by
+
+The acceleration of the current car depends on the front car speed and location, c is the sensitivity parameter. Integrating the above yields
+ (2.2) Since by the definition of the density (number of cars per unit area)
+
+and the integration constant dn is chosen such that at jam density
+pm, the velocity is zero. Then for steady-state we get
+
+pm
+We see that for p -> 0 we get in trouble, but from observations in low traffic densities, car speed is the maximum allowed speed, hence we can assume v = vmax, which is the maximum allowed speed.
+
+\subsection*{Makroskopische Modelle}
+Traffic Flow Theory
+In this section we will cover the vehicle traffic flow fundamentals for the macroscopic modeling approach. The relation between density, velocity and flow is presented for traffic flow. Then we derive the conservation of vehicles, which is the main governing equation for scalar macroscopic traffic models. Finally, the velocity–density func- tions that makes the conservation equation a function of only one variable (density) are given.
+2.4.1 Flow
+In this section, we will illustrate the close relationship between the three variables: density, velocity and traffic flow. Suppose there is a road with cars moving with constant velocity v0, and constant density p0 such that the distance between the cars is also constant as shown in the Fig. 2.1a. Now let an observer measure the number of cars per unit time tau that pass him (i.e. traffic flow f). In tau time, each car has moved v0tau distance, and hence the number of cars that pass the observer in tau time is the number of cars in v0tau distance, see Fig. 2.1b.
+Since the density p0 is the number of cars per unit area and there is v0tau distance, then the traffic flow is given by
+f = p0v0 (2.5) This is the same equation as in the time varying case, i.e.,
+f (p, v) = p(x, t)v(x, t).
+
+Fig. 2.1. (a) Constant flow of cars; (b) Distance traveled in tau hours for a single car
+To show this, consider the number of cars that pass point x = x0 in a very small time Dt. In this period of time the cars have not moved far and hence v(x, t), and p(x, t) can be approximated by their constant values at x = x0 and t = t0. Then, the number of cars passing the observer occupy a short distance, and they are approximately equal to p(x, t)v(x, t)t, where the traffic flow is given by (2.6).
+
+2.4.2 Conservation Law
+The models for traffic, whether they are one-equation or system of equations, are based on the physical principle of conservation. When physical quantities remain the same during some process, these quan- tities are said to be conserved. Putting this principle into a mathe- matical representation will make it possible to predict the densities and velocities patterns at future time. In our case, the number of cars in a segment of a highway [x1,x2] are our physical quantities, and the process is to keep them fixed (i.e., the number of cars coming in equals the number of cars going out of the segment). The deriva- tion of the conservation law is given in [26, 37], and it is presented here for completion. Consider a stretch of highway on which cars are
+
+
+
+
+
+-- ungern
+Another type of microscopic models are the Cellular Automata or vehicle hopping which differs from Car-Following in that it is a fully discrete model. It considers the road as a string of cells which are either empty or occupied by one vehicle. One such model is the Stochastic Traffic Cellular Automata, given in [75].
+--

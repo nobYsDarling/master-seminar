@@ -2,7 +2,7 @@
 
 Neurnale Netze beziehen sich eigentlich auf biologische Nervenzentren. In der Informatik hat man nur das grundlegende Prinzip adaptiert und versucht Strukturen zu erzeugen, die anhand von Daten lernen können. Es wird nicht versucht ein \textit{echtes} Gehirn nachzuempfinden, in dem Metastrukturen auftreten, in denen bestimmte Bereiche bestimmte Aufgaben haben. An dem Bereich wird natürlich auch geforscht, ist aber Gegenstand der Computational NeuroscienceTODO.
 
-\subsection*{Grundprinzipichen}
+\subsection{Grundprinzipichen}
 
 Die nachfolgenden Ausführungen und Grafiken zum Schaffen eines grundlegenden Verständnisses für neuronale Netze, die hier verwendet werden, basieren im wesentlichen auf dem E-Book ``Neural Networks and Deep Learning''\footnote{Michael Nielsen, Neural Networks and Deep Learning.\newline(http://neuralnetworksanddeeplearning.com/index.html)}.
 
@@ -11,7 +11,7 @@ Anstatt nun algorithmisch zu definieren, was einen Hund von einer Katze untersch
 
 Dieser Ansatz wird auch als \textit{Soft Computing} TODO bezeichnet.
 
-\subsubsection*{Perzeptron}
+\subsubsection{Perzeptron}
 
 Als elementaren Bestandteil eines neuronalen Netzes dient das \textit{Perzeptron} - dieses stellt die kleinste Einheit eines neuronalen Netzes dar und wird auch als ``künstliches Neuron'' bezeichnet.
 
@@ -70,7 +70,7 @@ Inhaltlich kann der Bias als ein Maß verstanden werden, aus dem hervorgeht, wie
 NOTE:
 wiederholung gehirn menschlich lernen
 
-\subsection{Sigmoid-Neuronen}
+\subsubsection{Sigmoid-Neuronen}
 
 Eine Weiterentwicklung des zuvor vorgestellten Modells stellen Sigmoid-Neuronen dar. Diese Weiterentwicklung wird dann erforderlich, wenn das Anpassen der Gewichte - also letztlich das Lernen - betrachtet wird. Dabei ist das Ziel, dass eine kleine Anpassung eines Gewichts auch nur eine kleine Änderung des Outputs zur Folge hat. Das zuvor betrachtete Perzeptron ist lediglich in der Lage 0 oder 1 als Output zu liefern, so dass Änderungen an den Gewichten keine stetige Änderung des Outputs zur Folge haben, sondern folgenlos bleiben können bis irgendwann ein Sprung von 0 auf 1 oder umgekehrt stattfindet, was wiederum eine große Änderung darstellt.
 
@@ -105,7 +105,7 @@ Der entscheidende Unterschied kann an den beiden nachfolgenden Grafiken verdeutl
     \label{fig:activation-functions}
 \end{figure}
 
-\subsection{Architektur neuronaler Netze}
+\subsubsection{Architektur neuronaler Netze}
 
 Mit diesen Bestandteilen als Ausgangspunkt können nun tatsächlich konkretere Neuronale Netze und deren Architekturen eingeführt werden. Neuronale Netze bestehen üblicherweise aus mehreren Schichten, den \textit{Layern}. Diese lassen sich grundsätzlich in drei Kategorien aufteilen: Input, Hidden und Output. Neuronale Netze beinhalten für gewöhnlich ein Input-Layer und ein Output-Layer sowie dazwischen beliebig viele Hidden-Layer. Die Form der Input- und Output-Layer ist dabei sehr naheliegend: das Input-Layer hat die gleiche Struktur wie die des Inputs und das Output-Layer hat entsprechend die gleiche Struktur wie der Output.
 
@@ -167,7 +167,7 @@ schüttet die Synapse aus. Der Überträgerstoff (Neurotransmitter) wandert zur 
 Manche Neurotransmitter erhöhen die elektrische Erregung der "angefunkten" Zelle,
 andere hemmen sie. 
 
-Die Netzwerke der Erinnerung
+Die Netzwerke der Erinnerungf_artificial_neural_networks
 Das Netzwerk der Neuronen in der Großhirnrinde (wegen ihrer Form auch „Pyramidenzellen“)
 ist im Gegensatz zu einem Computer nicht nach einem detaillierten Plan geknüpft,
 sondern weitgehend zufällig organisiert.
@@ -189,7 +189,7 @@ https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-expl
 
 und
 liste auf wikipedia
-https://en.wikipedia.org/wiki/Types\_of\_artificial\_neural\_networks
+%https://en.wikipedia.org/wiki/Types\_of\_artificial\_neural\_networks
 
 
 \subsection{Überwachtes und Unüberwachtes Lernen}
