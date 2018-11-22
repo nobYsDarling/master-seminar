@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Place any additional packages needed here.  Only include packages
+%% which are essential, to avoid problems later.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{notes2bib} % Formula subscripts using \ch{}
+\usepackage[T1]{fontenc} % Use modern font encodings
+\usepackage{hyperref}
+\usepackage[hang]{footmisc}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{etoolbox,refcount}
+\usepackage{graphicx}
+
+\usepackage{mathtools}
+\usepackage[export]{adjustbox}
+\usepackage{babel,varioref}
+\addto\extrasgerman{% page 5 of varioref's manual
+  \renewcommand\reftextfaceafter{auf der n{\"a}chsten Seite}%
+  \renewcommand\reftextafter {auf der n{\"a}chsten Seite}%
+  \renewcommand\reftextfacebefore{auf der vorherigen Seite}%
+  \renewcommand\reftextbefore {auf der vorherigen Seite}%
+  \renewcommand\reftextcurrent {auf dieser Seite}%
+}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{changepage}
+
+
+\usepackage[
+nochapters, % Turn off chapters since this is an article        
+beramono, % Use the Bera Mono font for monospaced text (\texttt)
+eulermath,% Use the Euler font for mathematics
+pdfspacing, % Makes use of pdftex’ letter spacing capabilities via the microtype package
+dottedtoc % Dotted lines leading to the page numbers in the table of contents
+]{classicthesis} % The layout is based on the Classic Thesis style
+
+\usepackage{arsclassica} % Modifies the Classic Thesis package
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+
+\usepackage[utf8]{inputenc} % Required for including letters with accents
+
+\usepackage{graphicx} % Required for including images
+\graphicspath{{Figures/}} % Set the default folder for images
+
+\usepackage{enumitem} % Required for manipulating the whitespace between and within lists
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{subcaption} % Required for creating figures with multiple parts (subfigures)
+
+\usepackage{amsmath,amssymb,amsthm} % For including math equations, theorems, symbols, etc
