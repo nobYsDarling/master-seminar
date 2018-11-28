@@ -1,0 +1,1935 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.8)  27 NOV 2018 22:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**acs-ma-inf102835
+(./acs-ma-inf102835.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/achemso/achemso.cls
+Document Class: achemso 2018/02/05 v3.11a Submission to ACS journals
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks14
+\XKV@tempa@toks=\toks15
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count88
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\acs@bib@file=\write3
+\c@bibnote=\count89
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count90
+\Gm@cntv=\count91
+\c@Gm@tempcnt=\count92
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen111
+\captionmargin@=\dimen112
+\captionwidth=\dimen113
+\caption@tempdima=\dimen114
+\caption@indent=\dimen115
+\caption@parindent=\dimen116
+\caption@hangindent=\dimen117
+)
+\c@ContinuedFloat=\count93
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count94
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen118
+\Gin@req@width=\dimen119
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\acs@author@cnt=\count95
+\acs@affil@cnt=\count96
+\acs@affil@alt@cnt=\count97
+\acs@footnote@cnt=\count98
+\acs@affil@marker@cnt=\count99
+\acs@space@pre@title=\skip43
+\acs@space@post@title=\skip44
+\acs@space@post@author=\skip45
+\acs@space@post@address=\skip46
+\acs@space@post@email=\skip47
+\acs@maketitle@width=\skip48
+\@float@every@scheme=\toks19
+\c@scheme=\count100
+\@float@every@chart=\toks20
+\c@chart=\count101
+\@float@every@graph=\toks21
+\c@graph=\count102
+\@float@every@table=\toks22
+\acs@collect@toks=\toks23
+\acs@collect@empty@toks=\toks24
+\acs@tocentry@height=\skip49
+\acs@tocentry@width=\skip50
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/achemso/achemso-jacsat.cfg
+File: achemso-jacsat.cfg 2018/02/05 v3.11a achemso configuration: J. Am. Chem. 
+Soc.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count103
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/achemso/natmove.sty
+Package: natmove 2010/01/15 v1.1a Automatic citation moving with natbib
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/mciteplus/mciteplus.sty
+Package: mciteplus 2013/09/13 v1.2 enhanced mcite
+\@mcitetmptoksA=\toks25
+\@mcitetmpdima=\dimen120
+\@mcitetmpdimb=\dimen121
+\@mcitetmpcnta=\count104
+\@mcitetmpcntb=\count105
+\c@mcitebibitemcount=\count106
+\c@mcitesubitemcount=\count107
+
+** mciteplus: Detected natbib.sty. Invoking hooks.
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2018/03/29 v2.10 German support for babel (pre-1996 orthograph
+y)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2018/03/29 v2.10 German support for babel (pre-1996 orthograp
+hy)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count108
+\U@D=\dimen122
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count109
+)
+Package babel Info: Making " an active character on input line 135.
+)))
+(./packages.tex (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen123
+\Hy@linkcounter=\count110
+\Hy@pagecounter=\count111
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count112
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count113
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen124
+\Fld@menulength=\count114
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count115
+\c@Item=\count116
+\c@Hfootnote=\count117
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count118
+\c@bookmark@seq@number=\count119
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip53
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks26
+\footnotemargin=\dimen127
+\c@pp@next@reset=\count120
+\c@@fnserial=\count121
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count122
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2018/04/01 v1.8r multicolumn formatting (FMi)
+\c@tracingmulticols=\count123
+\mult@box=\box28
+\multicol@leftmargin=\dimen128
+\c@unbalance=\count124
+\c@collectmore=\count125
+\doublecol@number=\count126
+\multicoltolerance=\count127
+\multicolpretolerance=\count128
+\full@width=\dimen129
+\page@free=\dimen130
+\premulticols=\dimen131
+\postmulticols=\dimen132
+\multicolsep=\skip54
+\multicolbaselineskip=\skip55
+\partial@page=\box29
+\last@line=\box30
+\maxbalancingoverflow=\dimen133
+\mult@rightbox=\box31
+\mult@grightbox=\box32
+\mult@gfirstbox=\box33
+\mult@firstbox=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\c@columnbadness=\count129
+\c@finalcolumnbadness=\count130
+\last@try=\dimen134
+\multicolovershoot=\dimen135
+\multicolundershoot=\dimen136
+\mult@nat@firstbox=\box52
+\colbreak@box=\box53
+\mc@col@check@num=\count131
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count132
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/overcite.sty
+Package: overcite 2003/05/27  v 4.0
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+LaTeX Info: Redefining \cite on input line 441.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count133
+\calc@Bcount=\count134
+\calc@Adimen=\dimen137
+\calc@Bdimen=\dimen138
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count135
+\calc@Cskip=\skip58
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks27
+\ex@=\dimen139
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count136
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count137
+\leftroot@=\count138
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count139
+\DOTSCASE@=\count140
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count141
+\c@MaxMatrixCols=\count142
+\dotsspace@=\muskip11
+\c@parentequation=\count143
+\dspbrk@lvl=\count144
+\tag@help=\toks28
+\row@=\count145
+\column@=\count146
+\maxfields@=\count147
+\andhelp@=\toks29
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks30
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count148
+\l_MT_multwidth_dim=\dimen148
+\origjot=\skip62
+\l_MT_shortvdotswithinadjustabove_dim=\dimen149
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen150
+\l_MT_above_intertext_sep=\dimen151
+\l_MT_below_intertext_sep=\dimen152
+\l_MT_above_shortintertext_sep=\dimen153
+\l_MT_below_shortintertext_sep=\dimen154
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box56
+)
+\tc@llx=\dimen155
+\tc@lly=\dimen156
+\tc@urx=\dimen157
+\tc@ury=\dimen158
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen159
+\adjbox@Height=\dimen160
+\adjbox@Depth=\dimen161
+\adjbox@Totalheight=\dimen162
+\adjbox@pwidth=\dimen163
+\adjbox@pheight=\dimen164
+\adjbox@pdepth=\dimen165
+\adjbox@ptotalheight=\dimen166
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count149
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count150
+\@vwid@loff=\dimen167
+\@vwid@roff=\dimen168
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/varioref.sty
+Package: varioref 2016/02/16 v1.5c package for extended references (FMi)
+\c@vrcnt=\count151
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count152
+\lst@gtempboxa=\box58
+\lst@token=\toks32
+\lst@length=\count153
+\lst@currlwidth=\dimen169
+\lst@column=\count154
+\lst@pos=\count155
+\lst@lostspace=\dimen170
+\lst@width=\dimen171
+\lst@newlines=\count156
+\lst@lineno=\count157
+\lst@maxwidth=\dimen172
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count158
+\lst@skipnumbers=\count159
+\lst@framebox=\box59
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count160
+\cp@tempcnt=\count161
+LaTeX Info: Redefining \checkoddpage on input line 59.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/classicthesis/classicthesis.sty
+Package: classicthesis 2017/10/13 v4.4 Typographic style for a classic-looking 
+thesis
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/latexrelease.sty
+Package: latexrelease 2018/02/18 v1.0j LaTeX release emulation and tests (inclu
+ding releases up to 2018-04-01)
+
+
+Package latexrelease Warning: Current format date selected, no patches applied.
+
+
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+
+Package classicthesis Warning: Chapter sectioning command not present in this d
+ocument class. Deactivating options floatperchapter, linedheaders, manychapters
+, listsseparated, eulerchapternumbers and parts.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/eulervm/eulervm.sty
+Package: eulervm 2005/01/11 v4.0 (WaS)
+)
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 208.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1pplj.fd
+File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
+\MT@toks=\toks33
+\MT@count=\count162
+LaTeX Info: Redefining \textls on input line 793.
+\MT@outer@kern=\dimen173
+LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+\MT@listname@count=\count163
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 913.
+LaTeX Info: Redefining \lslig on input line 913.
+\MT@outer@space=\skip63
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
+)))
+\ta@bcor=\skip64
+\ta@div=\count164
+\ta@hblk=\skip65
+\ta@vblk=\skip66
+\ta@temp=\skip67
+\footheight=\skip68
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = 0%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 544.87628pt
+(typearea)              \topmargin      = -1.84941pt
+(typearea)              \headheight     = 19.0313pt
+(typearea)              \headsep        = 22.83755pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 53.28763pt
+(typearea)              \baselineskip   = 15.22504pt
+(typearea)              on input line 1706.
+)
+Package classicthesis Info: A4 paper, Palatino or other on input line 276.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = areaset
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 336.0pt
+(typearea)              \evensidemargin = 58.48398pt
+(typearea)              \oddsidemargin  = 58.48398pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 656.87482pt
+(typearea)              \topmargin      = -40.58768pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 22.83755pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 53.28763pt
+(typearea)              \baselineskip   = 15.22504pt
+(typearea)              on input line 276.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen174
+\lightrulewidth=\dimen175
+\cmidrulewidth=\dimen176
+\belowrulesep=\dimen177
+\belowbottomsep=\dimen178
+\aboverulesep=\dimen179
+\abovetopsep=\dimen180
+\cmidrulesep=\dimen181
+\cmidrulekern=\dimen182
+\defaultaddspace=\dimen183
+\@cmidla=\count165
+\@cmidlb=\count166
+\@aboverulesep=\dimen184
+\@belowrulesep=\dimen185
+\@thisruleclass=\count167
+\@lastruleclass=\count168
+\@thisrulewidth=\dimen186
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+Package classicthesis Info: Using pdftex/microtype for character spacing.Make s
+ure your pdftex is version 1.40 or higher. on input line 364.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2018/03/30 v3.25 KOMA-Script package (end user interf
+ace for scrlayer)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2018/03/30 v3.25 KOMA-Script package (defining layers and pag
+e styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 109.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 199
+7.
+))
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
+
+1: subsection
+1: section
+1: section
+1: subsection
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box60
+\beforetitleunit=\skip69
+\aftertitleunit=\skip70
+\ttl@plus=\dimen187
+\ttl@minus=\dimen188
+\ttl@toksa=\toks34
+\titlewidth=\dimen189
+\titlewidthlast=\dimen190
+\titlewidthfirst=\dimen191
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 51.
+\cftparskip=\skip71
+\cftbeforetoctitleskip=\skip72
+\cftaftertoctitleskip=\skip73
+\cftbeforepartskip=\skip74
+\cftpartnumwidth=\skip75
+\cftpartindent=\skip76
+\cftbeforesecskip=\skip77
+\cftsecindent=\skip78
+\cftsecnumwidth=\skip79
+\cftbeforesubsecskip=\skip80
+\cftsubsecindent=\skip81
+\cftsubsecnumwidth=\skip82
+\cftbeforesubsubsecskip=\skip83
+\cftsubsubsecindent=\skip84
+\cftsubsubsecnumwidth=\skip85
+\cftbeforeparaskip=\skip86
+\cftparaindent=\skip87
+\cftparanumwidth=\skip88
+\cftbeforesubparaskip=\skip89
+\cftsubparaindent=\skip90
+\cftsubparanumwidth=\skip91
+\cftbeforeloftitleskip=\skip92
+\cftafterloftitleskip=\skip93
+\cftbeforefigskip=\skip94
+\cftfigindent=\skip95
+\cftfignumwidth=\skip96
+\c@lofdepth=\count169
+\c@lotdepth=\count170
+\cftbeforelottitleskip=\skip97
+\cftafterlottitleskip=\skip98
+\cftbeforetabskip=\skip99
+\cfttabindent=\skip100
+\cfttabnumwidth=\skip101
+)
+\newnumberwidth=\skip102
+\beforebibskip=\skip103
+\newchnumberwidth=\skip104
+\figurelabelwidth=\skip105
+\tablelabelwidth=\skip106
+
+
+Package classicthesis Warning: Using package "footmisc" with option "flushmargi
+n" for footnote setup (not 100\% the same as with KOMA).
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/scrtime.sty
+Package: scrtime 2018/03/30 v3.25 KOMA-Script package (time of LaTeX run)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/carlisle/remreset.sty))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/arsclassica/arsclassica.sty
+Package: arsclassica 2017/10/31
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = areaset
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 370.0pt
+(typearea)              \evensidemargin = 41.48396pt
+(typearea)              \oddsidemargin  = 41.48396pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 690.87482pt
+(typearea)              \topmargin      = -51.92102pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 22.83755pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 53.28763pt
+(typearea)              \baselineskip   = 15.22504pt
+(typearea)              on input line 17.
+LaTeX Info: Redefining \spacedallcaps on input line 48.
+LaTeX Info: Redefining \spacedlowsmallcaps on input line 50.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/block.tss
+File: block.tss 2016/03/15
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 184.
+Package hyperref Info: Option `linktocpage' set `true' on input line 184.
+Package hyperref Info: Option `breaklinks' set `true' on input line 184.
+Package hyperref Info: Option `pageanchor' set `true' on input line 184.
+Package hyperref Info: Option `plainpages' set `false' on input line 184.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 184.
+
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 184.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 184.
+
+
+Package hyperref Warning: Option `hyperfootnotes' has already been used,
+(hyperref)                setting the option has no effect on input line 184.
+
+
+Package hyperref Warning: Option `pdfpagelabels' has already been used,
+(hyperref)                setting the option has no effect on input line 184.
+
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks35
+\inpenc@posthook=\toks36
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks37
+\labelindent=\skip107
+\enit@outerparindent=\dimen192
+\enit@toks=\toks38
+\enit@inbox=\box61
+\enitdp@description=\count171
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count172
+\c@subtable=\count173
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks39
+\thm@bodyfont=\toks40
+\thm@headfont=\toks41
+\thm@notefont=\toks42
+\thm@headpunct=\toks43
+\thm@preskip=\skip108
+\thm@postskip=\skip109
+\thm@headsep=\skip110
+\dth@everypar=\toks44
+)
+\c@countitems=\count174
+\c@nextitemizecount=\count175
+
+(./acs-ma-inf102835.aux
+
+LaTeX Warning: Label `fig:acceleration_function' multiply defined.
+
+
+LaTeX Warning: Label `func:makro_speed_time_function' multiply defined.
+
+
+LaTeX Warning: Label `func:makro_density' multiply defined.
+
+
+LaTeX Warning: Label `fig:hidden-layers' multiply defined.
+
+
+LaTeX Warning: Label `func:energy_function' multiply defined.
+
+)
+\openout1 = `acs-ma-inf102835.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+\openout3 = `acs-acs-ma-inf102835.bib'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.2698pt, 469.75539pt, 72.2698pt)
+* v-part:(T,H,B)=(72.2698pt, 650.43037pt, 72.2698pt)
+* \paperwidth=597.50793pt
+* \paperheight=845.04694pt
+* \textwidth=370.0pt
+* \textheight=690.87482pt
+* \oddsidemargin=41.48396pt
+* \evensidemargin=41.48396pt
+* \topmargin=-51.92102pt
+* \headheight=17.0pt
+* \headsep=22.83755pt
+* \topskip=12.0pt
+* \footskip=53.28763pt
+* \marginparwidth=75.83597pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count176
+\scratchdimen=\dimen193
+\scratchbox=\box62
+\nofMPsegments=\count177
+\nofMParguments=\count178
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count179
+\MPscratchDim=\dimen194
+\MPnumerator=\count180
+\makeMPintoPDFobject=\count181
+\everyMPtoPDFconversion=\toks46
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring ON on input line 108.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count182
+LaTeX Info: Redefining \Ref on input line 515.
+)
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \nameref on input line 108.
+
+(./acs-ma-inf102835.out) (./acs-ma-inf102835.out)
+\@outlinefile=\write4
+\openout4 = `acs-ma-inf102835.out'.
+
+LaTeX Info: Redefining \Ref on input line 108.
+\c@lstlisting=\count183
+LaTeX Info: Redefining \microtypecontext on input line 108.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: No font expansion.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
+)
+
+Package scrlayer-scrpage Warning: Very small head height detected!
+(scrlayer-scrpage)                Using scrlayer-scrpage the head height
+(scrlayer-scrpage)                should be at least \baselineskip, which is
+(scrlayer-scrpage)                23.99748pt currently.
+(scrlayer-scrpage)                But head height is currently 17.0pt only.
+(scrlayer-scrpage)                You may use
+(scrlayer-scrpage)                geometry option `head=23.99748pt'
+(scrlayer-scrpage)                or load package `scrlayer-scrpage' with
+(scrlayer-scrpage)                option `singlespacing=true'
+(scrlayer-scrpage)                to avoid this warning.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <12> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 108.
+LaTeX Font Info:    Try loading font information for T1+iwona on input line 108
+.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/iwona/t1iwona.fd
+File: t1iwona.fd 2008/07/22 v0.995 font definition file for T1/iwona (MW)
+)
+LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <12> not available
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 108.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `iwona' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 108.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 108.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/eulervm/uzeur.fd
+File: uzeur.fd 2005/01/11 v4.0 (WaS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-eur.cfg
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
+)
+LaTeX Font Info:    Try loading font information for U+zeus on input line 108.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/eulervm/uzeus.fd
+File: uzeus.fd 2005/01/11 v4.0 (WaS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-eus.cfg
+File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
+)
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 108.
+
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/eulervm/uzeuex.fd
+File: uzeuex.fd 2005/01/11 v4.0 (WaS)
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 108
+.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zplm' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Overfull \hbox (99.75539pt too wide) in paragraph at lines 108--108
+ []$ 
+ []
+
+
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 23.99747pt needed,
+(scrlayer-scrpage)                but only 17.0pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=23.99747pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 1
+09.
+
+
+Overfull \vbox (6.99747pt too high) has occurred while \output is active []
+
+
+
+Package scrlayer-scrpage Warning: \footheight to low.
+(scrlayer-scrpage)                At least 23.99747pt needed,
+(scrlayer-scrpage)                but only 19.0313pt found.
+(scrlayer-scrpage)                I'll enlarge \footheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., using
+(scrlayer-scrpage)                  \setlength{\footheight}{23.99747pt}
+(scrlayer-scrpage)                in your preamble.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 10
+9.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 109.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 109.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 109.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 109.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 109.
+[1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./acs-ma-inf102835.toc
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/pplj/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+)
+\tf@toc=\write5
+\openout5 = `acs-ma-inf102835.toc'.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 113.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 113.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 113.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 113.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 113.
+ [2] (./sections/0_introduction.tex
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/iwona/m/sc/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 1.
+LaTeX Font Info:    Font shape `T1/iwona/bx/sc' in size <12> not available
+(Font)              Font shape `T1/iwona/b/sc' tried instead on input line 16.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/iwona/b/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 16.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/iwona/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 19.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 19.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 19.
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T1/pplj/m/n/10 https://www.statista.com/statistics/281134/number-of-vehicles-i
+n-use-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T1/pplj/m/n/10 https://de.statista.com/statistik/daten/studie/12131/umfrage/pk
+w-bestand-
+ []
+
+LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 28.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 34.
+[4]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 48.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 48.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 48.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 51.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 51.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 51.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 51.
+ [5]
+<media/signalzeitenplan_ausschnitt.jpg, id=155, 540.0175pt x 570.13pt>
+File: media/signalzeitenplan_ausschnitt.jpg Graphic file (type jpg)
+<use media/signalzeitenplan_ausschnitt.jpg>
+Package pdftex.def Info: media/signalzeitenplan_ausschnitt.jpg  used on input l
+ine 54.
+(pdftex.def)             Requested size: 258.99887pt x 273.4418pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 62.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 62.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 62.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 62.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 62.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 62.
+ [6 <./media/signalzeitenplan_ausschnitt.jpg>]
+<media/offsetcrosswalk.jpg, id=162, 979.66pt x 751.80875pt>
+File: media/offsetcrosswalk.jpg Graphic file (type jpg)
+<use media/offsetcrosswalk.jpg>
+Package pdftex.def Info: media/offsetcrosswalk.jpg  used on input line 65.
+(pdftex.def)             Requested size: 258.99887pt x 198.75803pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 74.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 74.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 74.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 74.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 74.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 74.
+ [7 <./media/offsetcrosswalk.jpg>]
+Overfull \hbox (17.33275pt too wide) in paragraph at lines 74--75
+[]\T1/pplj/m/n/12 Der im Fol-gen-den vor-ge-stell-te Op-ti-mie-rungs-an-satz mi
+t dem Hopfield-
+ []
+
+)
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 120.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 120.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 120.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 120.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 120.
+ [8] (./sections/1_neural_networks.tex
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 10.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 10.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 10.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 14.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 14.
+ [9]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 20.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 20.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 20.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 20.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 20.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 20.
+ [10]
+LaTeX Font Info:    Font shape `T1/iwona/bx/it' in size <12> not available
+(Font)              Font shape `T1/iwona/b/it' tried instead on input line 21.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 21.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 21.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 21.
+<media/docu_img_01.png, id=193, 209.583pt x 107.80275pt>
+File: media/docu_img_01.png Graphic file (type png)
+<use media/docu_img_01.png>
+Package pdftex.def Info: media/docu_img_01.png  used on input line 29.
+(pdftex.def)             Requested size: 185.0pt x 95.1595pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 51.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 51.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 51.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 51.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 51.
+ [11 <./media/docu_img_01.png>]
+<media/docu_img_03.png, id=206, 419.166pt x 175.857pt>
+File: media/docu_img_03.png Graphic file (type png)
+<use media/docu_img_03.png>
+Package pdftex.def Info: media/docu_img_03.png  used on input line 56.
+(pdftex.def)             Requested size: 185.0pt x 77.61613pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 76.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 76.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 76.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 76.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 76.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 76.
+[12 <./media/docu_img_03.png>]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 77.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 77.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 77.
+
+Overfull \hbox (14.31192pt too wide) in paragraph at lines 79--80
+\T1/pplj/m/n/12 Eine Wei-ter-ent-wick-lung des zu-vor vor-ge-stell-ten Mo-dells
+ stel-len Sigmoid-
+ []
+
+
+Overfull \hbox (0.62585pt too wide) in paragraph at lines 79--80
+\T1/pplj/m/n/12 Neuronen dar. Die-se Wei-ter-ent-wick-lung wird dann er-for-der
+-lich, wenn
+ []
+
+<media/docu_img_06.png, id=217, 306.54526pt x 207.77625pt>
+File: media/docu_img_06.png Graphic file (type png)
+<use media/docu_img_06.png>
+Package pdftex.def Info: media/docu_img_06.png  used on input line 98.
+(pdftex.def)             Requested size: 149.84796pt x 101.57028pt.
+<media/docu_img_07.png, id=218, 313.77225pt x 210.18526pt>
+File: media/docu_img_07.png Graphic file (type png)
+<use media/docu_img_07.png>
+Package pdftex.def Info: media/docu_img_07.png  used on input line 103.
+(pdftex.def)             Requested size: 149.84796pt x 100.37782pt.
+
+Underfull \hbox (badness 3930) in paragraph at lines 108--108
+[][]|\T1/pplj/m/n/10.95 Ver-gleich der Ak-ti-vie-rungs-funk-tio-nen \T1/pplj/m/
+it/10.95 Sig-mo-id \T1/pplj/m/n/10.95 und \T1/pplj/m/it/10.95 Step-
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 111.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 111.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 111.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 111.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 111.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 111.
+[13]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 112.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 112.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 112.
+<media/docu_img_08.png, id=226, 420.3705pt x 355.3275pt>
+File: media/docu_img_08.png Graphic file (type png)
+<use media/docu_img_08.png>
+Package pdftex.def Info: media/docu_img_08.png  used on input line 125.
+(pdftex.def)             Requested size: 332.99774pt x 281.48637pt.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 128.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 128.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 128.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 128.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 128.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 128.
+ [14 <./media/docu_img_06.png> <./media/docu_img_07.png>]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 130.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 130.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 130.
+
+Overfull \hbox (9.02501pt too wide) in paragraph at lines 132--139
+\T1/pplj/m/n/12 sind. Es sind grund-sätz-lich vie-le ver-schie-de-ne Verlust-Fu
+nktionen denk-
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 147.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 147.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 147.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 147.
+[15 <./media/docu_img_08.png>]
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 154.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 154.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 154.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 157.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 157.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 157.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 160.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 160.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 160.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 160.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 160.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 160.
+ [16])
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 123.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 123.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 123.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 123.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 123.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 123.
+ [17] (./sections/2_traffic_models.tex
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 13.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 13.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 15.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 15.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 15.
+
+[18]
+Overfull \hbox (1.24565pt too wide) in paragraph at lines 36--37
+\T1/pplj/m/n/12 die Ge-schwin-dig-keit, um-so hö-her der Ab-stand zum Vor-der-m
+ann, aber
+ []
+
+
+Overfull \hbox (4.93304pt too wide) in paragraph at lines 36--37
+\T1/pplj/m/n/12 nie-mals un-ter-halb des Si-cher-heits-ab-stands. Glei-ches gil
+t für die Höchst-
+ []
+
+
+Overfull \hbox (4.92883pt too wide) in paragraph at lines 36--37
+\T1/pplj/m/n/12 ge-schwin-dig-keit, wel-che ei-ner asym-pto-ti-sche Gren-ze für
+ die Ge-schwin-
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 37.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 37.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 37.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 37.
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Overfull \hbox (19.09766pt too wide) in paragraph at lines 65--66
+[]\T1/pplj/m/n/12 General Mo-tors hat ei-ni-ge Va-ri-an-ten an Elastizitäts-, a
+uch Sensitivitäts-
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 82.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 82.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 82.
+
+Overfull \hbox (0.50082pt too wide) in paragraph at lines 84--85
+\T1/pplj/m/n/12 die im Ge-gen-satz zu dem vor-her be-schrie-be-nen, die auf Dur
+ch-schnitts-
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 85.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 85.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 85.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 85.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 85.
+[20]
+Underfull \hbox (badness 7291) in paragraph at lines 98--98
+[][]|\T1/pplj/m/n/10.95 Ge-schwin-dig-kei abh.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+\T1/pplj/m/n/10.95 der zu-rück-ge-leg-ten
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 114.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 114.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 114.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 114.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 114.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 114.
+[21]
+<media/Flow_Density_Relationship.png, id=298, 654.7662pt x 577.1964pt>
+File: media/Flow_Density_Relationship.png Graphic file (type png)
+<use media/Flow_Density_Relationship.png>
+Package pdftex.def Info: media/Flow_Density_Relationship.png  used on input lin
+e 127.
+(pdftex.def)             Requested size: 332.99774pt x 293.54718pt.
+)
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 126.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 126.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 126.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 126.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 126.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 126.
+ [22 <./media/Flow_Density_Relationship.png>] (./sections/3_hopfield.tex
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 1.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 6.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 6.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 6.
+
+Overfull \hbox (32.81744pt too wide) has occurred while \output is active
+ []|[]|
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 16.
+[23]
+Overfull \hbox (10.2808pt too wide) in paragraph at lines 19--20
+\T1/pplj/m/n/12 Neu-ron \T1/pplj/m/it/12 schal-tet \T1/pplj/m/n/12 oder nicht, 
+kann sym-me-trisch oder asym-me-trisch durch-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--34
+
+ []
+
+
+Overfull \hbox (32.81744pt too wide) has occurred while \output is active
+ []|[]|
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 38.
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
+
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 55.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 55.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 55.
+
+Overfull \hbox (32.81744pt too wide) has occurred while \output is active
+ []|[]|
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 73.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 73.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 73.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 73.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 73.
+[25])
+Overfull \hbox (32.81744pt too wide) has occurred while \output is active
+ []|[]|
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 129.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 129.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 129.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 129.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 129.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 129.
+[26] (./sections/4_results.tex)
+Overfull \hbox (32.81744pt too wide) has occurred while \output is active
+ []|[]|
+ []
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 132.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 132.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 132.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 132.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 132.
+[27] (./acs-ma-inf102835.lof
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 27.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 27.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 27.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 27.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 27.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 27.
+ [28])
+\tf@lof=\write6
+\openout6 = `acs-ma-inf102835.lof'.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 136.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 136.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 136.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 136.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 136.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 136.
+ [29] (./acs-ma-inf102835.lot)
+\tf@lot=\write7
+\openout7 = `acs-ma-inf102835.lot'.
+
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 140.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 140.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 140.
+Package babel Info: Redefining german shorthand "f
+(babel)             in language  on input line 140.
+Package babel Info: Redefining german shorthand "|
+(babel)             in language  on input line 140.
+Package babel Info: Redefining german shorthand "~
+(babel)             in language  on input line 140.
+ [30]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
+
+(./acs-ma-inf102835.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
+Package rerunfilecheck Info: File `acs-ma-inf102835.out' has not changed.
+(rerunfilecheck)             Checksum: 9ECF92AC5CAB9B9AE5D735A94F803AE3;1273.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
+ ) 
+Here is how much of TeX's memory you used:
+ 19023 strings out of 492649
+ 322519 string characters out of 6129622
+ 618341 words of memory out of 5000000
+ 22362 multiletter control sequences out of 15000+600000
+ 126379 words of font info for 160 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 65i,23n,94p,1297b,699s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
+live/2018/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{/usr/local/texlive/201
+8/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}</usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2018/texmf-dist/fonts/
+type1/nowacki/iwona/iwonabi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
+/nowacki/iwona/iwonar.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msam10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/u
+rw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/pala
+tino/uplri8a.pfb>
+Output written on acs-ma-inf102835.pdf (30 pages, 854388 bytes).
+PDF statistics:
+ 447 PDF objects out of 1000 (max. 8388607)
+ 383 compressed objects within 4 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 21681 words of extra memory for PDF output out of 24883 (max. 10000000)
+

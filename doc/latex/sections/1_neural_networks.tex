@@ -1,15 +1,22 @@
 \section{Neuronale Netze}
 
-Neurnale Netze beziehen sich eigentlich auf biologische Nervenzentren. In der Informatik hat man nur das grundlegende Prinzip adaptiert und versucht Strukturen zu erzeugen, die anhand von Daten lernen können. Es wird nicht versucht ein \textit{echtes} Gehirn nachzuempfinden, in dem Metastrukturen auftreten, in denen bestimmte Bereiche bestimmte Aufgaben haben. An dem Bereich wird natürlich auch geforscht, ist aber Gegenstand der Computational NeuroscienceTODO.
-
-\subsection{Grundprinzipichen}
-
 Die nachfolgenden Ausführungen und Grafiken zum Schaffen eines grundlegenden Verständnisses für neuronale Netze, die hier verwendet werden, basieren im wesentlichen auf dem E-Book ``Neural Networks and Deep Learning''\footnote{Michael Nielsen, Neural Networks and Deep Learning.\newline(http://neuralnetworksanddeeplearning.com/index.html)}.
 
 Im Rahmen des maschinellen Lernens stellen die neuronalen Netze einen elementaren Ansatz dar, der in vielen weiteren Modellen Verwendung findet. Neuronale Netze wie das maschinelle Lernen an sich stellen eine andere Herangehensweise dar, als die klassischer, deterministischer Algorithmen. Anstatt dem System eine eindeutige Abfolge von Anweisungen mitzuteilen, um eine konkrete Problemstellung zu lösen, wird ein Modell definiert und dieses mit verschiedenen Beispielen konfrontiert - die Beispiele sind dabei Tupel aus Eingangsgröße und erwarteter Ausgangsgröße. Die Dimensionen von Eingangs- und Ausgangsgröße können sich dabei gleich sein, müssen es aber nicht. So können als Eingabe Bilder dienen und als Ausgaben konkrete Klassen, um beispielsweise Hunde von Katzen unterscheiden zu können. TODO
 Anstatt nun algorithmisch zu definieren, was einen Hund von einer Katze unterscheidet, wird es dem zuvor erstellten Modell überlassen, anhand der gegebenen Eingaben und erwarteten Ausgaben, eigenständig Regeln abzuleiten, um mit dessen Hilfe auch unbekannte Eingaben klassifizieren zu können.
 
-Dieser Ansatz wird auch als \textit{Soft Computing} TODO bezeichnet.
+Dieser Ansatz wird auch als \textit{Soft Computing}\footnote{Wikipedia, (\textit{engl.} \href{https://en.wikipedia.com/wiki/Soft\_Computing}{Soft Computing}.} bezeichnet.
+
+\subsection{Grundprinzipichen}
+
+Neurnale Netze beziehen sich eigentlich auf biologische Nervenzentren. In der Informatik hat man nur das grundlegende Prinzip adaptiert und versucht Strukturen zu erzeugen, die anhand von Daten lernen können. Es wird nicht versucht ein \textit{echtes} Gehirn nachzuempfinden, in dem Metastrukturen auftreten, in denen bestimmte Bereiche bestimmte Aufgaben haben. An dem Bereich wird natürlich auch geforscht, ist aber Gegenstand der Computational Neuroscience\footnote{Wikipedia, \href{https://de.wikipedia.org/wiki/Computational\_Neuroscience}{Computational Neuroscience}.}.
+Dennoch sei die biologische im Folgenden beschrieben wie Neuronen funktionieren:
+
+\paragraph{}
+\textit{Die Arbeitsweise ist erstaunlich einfach: Immer wenn die Summe der Eingangssignale einen bestimmten Schwellenwert überschreitet, sendet die Zelle ein Ausgangssignal. Bleibt die Eingangserregung unter der Grenze, reagiert die Zelle nicht. Am Ende der axonalen Verzweigungen stellt eine besondere Struktur, die Synapse, den Kontakt zu anderen Neuronen her.}
+\textit{Die meisten Synapsen funktionieren so: Je stärker die Erregung im Axon, desto mehr Moleküle einer Überträgersubstanz schüttet die Synapse aus. Der Überträgerstoff (Neurotransmitter) wandert zur Zielzelle. Manche Neurotransmitter erhöhen die elektrische Erregung der "angefunkten" Zelle, andere hemmen sie.}
+
+\textit{Das Netzwerk der Neuronen in der Großhirnrinde (wegen ihrer Form auch „Pyramidenzellen“) ist im Gegensatz zu einem Computer nicht nach einem detaillierten Plan geknüpft, sondern weitgehend zufällig organisiert. Sind miteinander verbundene Zellen gemeinsam aktiv, verstärken sich die Synapsen. Demnach aktiviert das Lernen immer wieder eine Anzahl miteinander verknüpfter Pyramidenzellen. Deren Verbindung verstärkt sich nach und nach, „neuronale Netzwerke“ entstehen. Je öfter sich der synaptische Lernprozess wiederholt, desto leichter lässt sich dieses „Netzwerk“ aktivieren.}
 
 \subsubsection{Perzeptron}
 
@@ -67,9 +74,6 @@ In Grafik\textsuperscript{\ref{fig:neuron-three-way}} wurde ein Schwellwert eing
 
 Inhaltlich kann der Bias als ein Maß verstanden werden, aus dem hervorgeht, wie \textit{leicht} ein Perzeptron aktiviert werden kann. Nimmt der Bias einen großen Wert an, so kann das Perzeptron einen Wert von 1 annehmen, auch wenn das Produkt aus den Gewichten und den Eingangsgrößen einen negativen Wert annimmt. Gleiches gilt selbstverständlich auch für einen kleinen Bias, der zur Folge hat, dass ein Perzeptron träger reagiert.
 
-NOTE:
-wiederholung gehirn menschlich lernen
-
 \subsubsection{Sigmoid-Neuronen}
 
 Eine Weiterentwicklung des zuvor vorgestellten Modells stellen Sigmoid-Neuronen dar. Diese Weiterentwicklung wird dann erforderlich, wenn das Anpassen der Gewichte - also letztlich das Lernen - betrachtet wird. Dabei ist das Ziel, dass eine kleine Anpassung eines Gewichts auch nur eine kleine Änderung des Outputs zur Folge hat. Das zuvor betrachtete Perzeptron ist lediglich in der Lage 0 oder 1 als Output zu liefern, so dass Änderungen an den Gewichten keine stetige Änderung des Outputs zur Folge haben, sondern folgenlos bleiben können bis irgendwann ein Sprung von 0 auf 1 oder umgekehrt stattfindet, was wiederum eine große Änderung darstellt.
@@ -113,8 +117,8 @@ Angenommen es sollen Bilder der Größe 28 \(\times\) 28 Pixel klassifiziert wer
 
 Lediglich der Bereich zwischen Input- und Output-Layer - die Hidden-Layer - lässt sich nicht ohne Weiteres aus dem Input oder dem Output ableiten. Es gibt lediglich Heuristiken, die beim Design der Hidden-Layer angewandt werden können, allerdings keine konkreten Regeln, die befolgt werden müssen. Diese Struktur kann anhand des nachfolgenden Bilds verdeutlicht werden, bei dem - um die Übersichtlichkeit zu wahren - das Input-Layer etwas komprimiert dargestellt wird:
 
-NOTES:
-pyton tutorial uh - > softcomputing
+%NOTES:
+%pyton tutorial uh - > softcomputing
 
 \begin{figure}[H]
     \centering
@@ -147,51 +151,22 @@ dar. Der Vektor a beschreibt den Output des Netzes und \textit{\(y(x)\)} stellt 
 Das Ziel besteht nun darin, die Gewichte und Bias so zu manipulieren, dass die gezeigte Funktion einen möglichst kleinen
 Wert annimmt.
 
-
-
-
-
-
-
---
-Wie Neuronen funktionieren
-Die Arbeitsweise ist erstaunlich einfach:
-Immer wenn die Summe der Eingangssignale einen bestimmten Schwellenwert überschreitet,
-sendet die Zelle ein Ausgangssignal.
-Bleibt die Eingangserregung unter der Grenze, reagiert die Zelle nicht.
-Am Ende der axonalen Verzweigungen stellt eine besondere Struktur, die Synapse,
-den Kontakt zu anderen Neuronen her.
-Die meisten Synapsen funktionieren so:
-Je stärker die Erregung im Axon, desto mehr Moleküle einer Überträgersubstanz
-schüttet die Synapse aus. Der Überträgerstoff (Neurotransmitter) wandert zur Zielzelle.
-Manche Neurotransmitter erhöhen die elektrische Erregung der "angefunkten" Zelle,
-andere hemmen sie. 
-
-Die Netzwerke der Erinnerungf_artificial_neural_networks
-Das Netzwerk der Neuronen in der Großhirnrinde (wegen ihrer Form auch „Pyramidenzellen“)
-ist im Gegensatz zu einem Computer nicht nach einem detaillierten Plan geknüpft,
-sondern weitgehend zufällig organisiert.
-Sind miteinander verbundene Zellen gemeinsam aktiv, verstärken sich die Synapsen.
-Demnach aktiviert das Lernen immer wieder eine Anzahl miteinander verknüpfter
-Pyramidenzellen. Deren Verbindung verstärkt sich nach und nach,
-„neuronale Netzwerke“ entstehen.
-Je öfter sich der synaptische Lernprozess wiederholt, desto leichter
-lässt sich dieses „Netzwerk“ aktivieren. 
---
-
-\subsection{Arten und Anwendungsgebiete}
-
-es gibt sie in allen formen und farben. nns zu listen, wäre ein akt der unmöglcihekit. 
-im netz finden sich links wie:
-
-The mostly complete chart of Neural Networks, explained
-https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464
-
-und
-liste auf wikipedia
-%https://en.wikipedia.org/wiki/Types\_of\_artificial\_neural\_networks
-
-
 \subsection{Überwachtes und Unüberwachtes Lernen}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
+\subsection{Arten und Anwendungsgebiete}
+
+Es gibt sie in allen Formen und Farben. Die Arten an neuronalen Netzen aufzulisten, wäre ein Akt der Unmöglichkeit. Quellen unterscheiden zwischen der Struktur des Netzes\footnote{}, also der Fragestellung, wie die Neuronen angeordnet sind oder den Anwendungsfällen\footnote{}.
+
+Prinzipiell können neuronale Netze gut in Systemen verwandt werden, welche eine in irgendeiner Form logische Struktur haben. Am Besten lassen sich die Anwendungsgebiete in Beispielen spiegeln, in denen diese schon heute zum Einsatz kommen:
+
+\subsubsection*{Amazon-Verteilungszentrum, Handschrifterkennung}
+\subsubsection*{GO-Spiel}
+\subsubsection*{Videosynchronisierung}
+
+
+%The mostly complete chart of Neural Networks, explained
+%https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464
+%und
+%liste auf wikipedia
+%https://en.wikipedia.org/wiki/Types of artificial neural networks

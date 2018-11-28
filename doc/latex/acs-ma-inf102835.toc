@@ -1,0 +1,19 @@
+\babel@toc {german}{}
+\contentsline {section}{\numberline {1}{Einleitung}}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}{Motivation}}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}{Gegenw\IeC {\"a}rtige Situation}}{6}{subsection.1.2}
+\contentsline {section}{\numberline {2}{Neuronale Netze}}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}{Grundprinzipichen}}{10}{subsection.2.1}
+\contentsline {paragraph}{{}}{10}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}{Perzeptron}}{11}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}{Sigmoid-Neuronen}}{13}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}{Architektur neuronaler Netze}}{14}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}{Lernen - Das Anpassen der Gewichte}}{15}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}{\IeC {\"U}berwachtes und Un\IeC {\"u}berwachtes Lernen}}{16}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}{Arten und Anwendungsgebiete}}{17}{subsection.2.4}
+\contentsline {section}{\numberline {3}{Verkehrsmodelle}}{18}{section.3}
+\contentsline {subsection}{\numberline {3.1}{Mikroskopische Modelle}}{19}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}{Makroskopische Modelle}}{21}{subsection.3.2}
+\contentsline {section}{\numberline {4}{Das Hopfield Netzwerk und der Verkehrsfluss (15-20 Minuten)}}{23}{section.4}
+\contentsline {subsection}{\numberline {4.1}{Hopfield-Netze}}{23}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}{Im Konkreten}}{25}{subsubsection.4.1.1}

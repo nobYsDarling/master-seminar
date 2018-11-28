@@ -1,0 +1,35 @@
+\section*{Das Hopfield Netzwerk und der Verkehrsfluss (15-20 Minuten)}
+
+Ein Verkehrssystem kann als eine verwobene Anordnung von Straßen, deren Fluss durch Ampelschaltungen kontrolliert wird, verstanden werden. Um den maximalen Fluss für eine gegebene Dichte in einem gegebenen Graphen (Verkehrsnetz) zu ermöglichen, ist die Kontrolle der Ampeln grundlegend. Dies gibt insbesondere in diesem stark vereinfachten Gedankenmodell, aber auch in komplexeren Darstellungen kann von einem hohen Einfluss der Schaltungen auf den Verkehrsfluss ausgegangen werden.
+Da die optimale Schaltung vorher nicht verfügbar ist, ist ein Ansatz mit überwachtem Lernen nicht passend. Benötigt wird in diesem Fall eine Lösung, die mit unüberwachtem Lernen auskommt. In diesem Fall wurde sich für ein Hopfield-NetzTODO entschieden, da sich dessen Struktur sehr gut auf das hier behandelte Problem projizieren lässt.
+
+Hopfield-Netze gehören zu den Feedbacknetzen. Sie bestehen aus nur einer Schicht, die sowohl als Ein- wie Ausgabelayer dient. Jedes Neuron ist mit allen anderen, ausgenommen sich selbst, verbunden. Sie geben \(-1\) oder \(+1\) aus, was im Allgemeinen bedeutet, dass das Neuren \textit{schaltet} oder eben nicht \textit{schaltet}. In diesem Anwendungsfall entspricht das der Grün- bzw. Rotphase.
+Die Verbindungen zwischen den Neuronen sind gewichtet und symmetrisch, heißt:
+
+\begin{figure}[H]
+    \( w_{ii} = 0 \foralli \)\\
+    \( w_{ij} = w_{ji} \)\\
+    \caption{Gewichtssymmetrie}
+    \label{func:weight_symmetry}
+\end{figure}
+
+Das Aktualisieren der Neuronen, also die Entscheidung, ob ein Neuron \textit{schaltet} oder nicht, kann symmetrisch oder asymmetrisch durchgeführt werden. Im Allgemeinen ergibt sich das Signal eines Neurons zu:
+
+\begin{figure}[H]
+    \( s_i =  \begin{cases}
+    +1 if \sum_j w_{ij}s_j >= \theta_i
+    -1 sonst\end{cases}\)
+    \caption{Gewichtssymmetrie}
+    \label{func:weight_symmetry}
+\end{figure}
+
+Da die Struktur des Netzes flach und vollständig verbunden (\textit{engl.} fully connected) ist, also jedes Neuron von jedem Neuron Bescheid weiß, 
+
+Durch die Symmetrie der Gewichte in Kombination mit asynchronem Updaten, wird gewährleistet, dass die Energie-Funktion monoton abfällt.TODO
+
+
+\subsection*{Ampelschaltung}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+\subsection*{Hopfield Modell}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.

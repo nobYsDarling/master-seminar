@@ -1,0 +1,57 @@
+\section{Das Hopfield Netzwerk und der Verkehrsfluss (15-20 Minuten)}
+
+Ein Verkehrssystem kann als eine verwobene Anordnung von Straßen, deren Fluss durch Ampelschaltungen kontrolliert wird, verstanden werden. Um den maximalen Fluss für eine gegebene Dichte in einem gegebenen Graphen (Verkehrsnetz) zu ermöglichen, ist die Kontrolle der Ampeln grundlegend. Dies gibt insbesondere in diesem stark vereinfachten Gedankenmodell, aber auch in komplexeren Darstellungen kann von einem hohen Einfluss der Schaltungen auf den Verkehrsfluss ausgegangen werden.
+Da die optimale Schaltung vorher nicht verfügbar ist, ist ein Ansatz mit überwachtem Lernen nicht passend. Benötigt wird in diesem Fall eine Lösung, die mit unüberwachtem Lernen auskommt. In dem Fall, der hier vorgestellt wird, wurde sich für ein Hopfield-NetzTODO entschieden, da sich dessen Struktur sehr gut auf Verkehrsflussprobleme projizieren lässt.
+
+\subsection{Hopfield-Netze}
+Hopfield-Netze gehören zu den Feedbacknetzen. Sie bestehen aus nur einer Schicht, die sowohl als Ein- wie Ausgabelayer dient. Jedes Neuron ist mit allen anderen, ausgenommen sich selbst, verbunden. Sie geben \(-1\) oder \(+1\) aus, was im Allgemeinen bedeutet, dass das Neuren \textit{schaltet} oder eben nicht \textit{schaltet}. In diesem Anwendungsfall entspricht das der Grün- bzw. Rotphase.
+Die Verbindungen zwischen den Neuronen sind gewichtet und symmetrisch, heißt:
+
+\begin{figure}[H]
+    \( w_{ii} = 0 \forall_i \)\\
+    \( w_{ij} = w_{ji} \)\\
+    \caption{Gewichtssymmetrie}
+    \label{func:weight_symmetry}
+\end{figure}
+
+Das Gewichte \textit{zwischen} zwei Neuronen haben einen starken Einfluss auf die benachbarten Neuronen. Sie ziehen sich an oder stoßen sich ab. Ist \(s_j = 1\), ist der Beitrag zum Schalten des nächsten Neurons positiv. Ist das Gewicht negativ, werden auch die Gewichte der Nachbarn negativ beeinflusst. In Verkehrsnetzen, kann dieses Verhalten interpretiert werden als Erhöhung der Wahrscheinlichkeit, dass die nächste Kreuzung umschaltet, sofern sich die Werte von \(s_i\) und \(s_j\) unterscheiden. Meint, die eine Ampel ist auf Grün, die nächste auf Rot.
+
+Das Aktualisieren der Neuronen, also die Entscheidung, ob ein Neuron \textit{schaltet} oder nicht, kann symmetrisch oder asymmetrisch durchgeführt werden. Im Allgemeinen ergibt sich das Signal eines Neurons zu:
+
+\begin{figure}[H]
+    \( s_i =  \begin{cases}
+    +1 \quad \quad if \sum_j w_{ij}s_j + b_{ij} >= \theta_i\\
+    -1 \quad \quad sonst\end{cases}\)
+    \caption{Aktualisierung eines Neurons}
+    \label{func:neuron_activation}
+\end{figure}
+
+\begin{minipage}{0.9\textwidth}
+\textit{mit:} \\
+\(w_{i,j}\) Gewichte der Straßensegmente\\
+\(s_i\) Interner Status \\
+\(\theta _{i}\) Schwellwert\\
+\end{minipage}
+
+Da die Struktur des Netzes flach und vollständig verbunden (\textit{engl.} fully connected) ist, also jedes Neuron von jedem Neuron Bescheid weiß, muss zwischen symmetrischem und asymmetrischen Aktualisieren unterschieden werden. Beim synchronen Aktualisieren werden alle Neuronen gleichzeitig geschaltet, beim asynchronen diskret hintereinander oder zufällig. An dem symmetrischen Aktualisieren wird häufig kritisiert, dass dieses Verfahren für die mit dem Netz untersuchten Systeme, meist unrealisitisch ist.
+
+Hopfield-Netze haben einen globalen, skalaren Wert, den man als Energie bezeichnet. Die Energie eines Netzes, ergibt sich dabei aus einer Funktion, der Energie-Funktion. Die Energie-Funktion ist ein grundlegender Parameter beim Entwerfen dieser Netze:
+
+\begin{figure}[H]
+    \(E=-{\frac  12}\sum _{{i,j}}{w_{{ij}}{s_{i}}{s_{j}}}+\sum _{i}{\theta _{i}}{s_{i}}\)
+    \caption{Energiefunktion}
+    \label{func:energy_function}
+\end{figure}
+
+\begin{minipage}{0.9\textwidth}
+\textit{mit:} \\
+\(w_{i,j}\) Gewichte der Straßensegmente\\
+\(s_i\) Interner Status \\
+\(\theta _{i}\) Inputbias \\
+\end{minipage}
+
+Durch die Symmetrie der Gewichte in Kombination mit asynchronem Updaten wird gewährleistet, dass diese Energie-Funktion monoton abnimmt.TODO Daraus folgt, dass nach mehrmaligem Updaten die Energiefunktion ein lokales Minimum erreicht.\footnote{Jehosuha B., 1990. \href{ http://www.paradise.caltech.edu/CNS188/bruck90-conv.pdf}{On the Convergence Properties of the
+Hopfield Model}} Dies wurde von Hopfield selbst bewiesen.
+
+\subsection{Ampelschaltung}
+
