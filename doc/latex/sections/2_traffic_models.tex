@@ -2,7 +2,7 @@
 
 Verkehrsmodelle bestehen zunächst aus dem Streckennetz oder Verkehrsgraph und den Teilnehmern. Natürlich kann es, je nach Anwendungsfall noch Sinn machen, noch andere Einflussfaktoren mit zu berücksichtigen, darauf wird jedoch im Folgenden jedoch verzichtet. Die Fragestellung: Wie lassen sich diese System in mathematischen Systemen abbilden?
 
-Bei Verkehrsflussporblemen gibt es zwei grundsätzliche Ansätze\footnote{Sven Maerivoet and Bart De Moor, 2008. Traffic Flow Theory. Department of Eletrical Engineering ESAT-SCD (SISTA), Katholieke Universiteit Leuven}
+Bei Verkehrsflussporblemen gibt es zwei grundsätzliche Ansätze\footnote{Sven Maerivoet and Bart De Moor, 2008. \href{ftp://ftp.esat.kuleuven.be/sista/smaerivo/reports/paper-05-154.pdf}{Traffic Flow Theory}. Department of Eletrical Engineering ESAT-SCD (SISTA), Katholieke Universiteit Leuven}
 \textsuperscript{,}
 \footnote{Springer, 2008. Traffic Flow for 1-D. Pedestrian Dynamics, Feedback Control of Crowd Evacuation}. Einmal die mikroskopischen Modelle\footnote{Wikipedia, \href{https://en.wikipedia.org/wiki/Microscopic\_traffic\_flow\_model}{Microscopic Traffic Flow Model}}, die das Gesamtsystem sehr feingranular abbilden. Sie basieren auf individuellem Verhalten und bilden Verkehrsteilnehmer als einzelne Objekte ab.
 Dem gegenüber stehen die makrsokopischen Modelle\footnote{Wikipedia, \href{https://en.wikipedia.org/wiki/Macroscopic\_traffic\_flow\_model}{Macroscopic Traffic Flow Model}}, die mehr Interesse an Durchschnittsverhalten haben. Sie betrachten etwas wie Verkehrsdichte und Durschnittsgeschwindigkeit.
@@ -31,9 +31,9 @@ Als Reaktion kann ein Fahrer beschleunigen oder abbremsen. Was passiert und wie 
     \label{fig:stimulus_function}
 \end{figure}
 
-An dieser Stelle scheiden sich die unterschiedlichen Modelle\footnote{Mathew T.V., 2014. Transportation Systems Engineering.}.
+An dieser Stelle scheiden sich die unterschiedlichen Modelle\textsuperscript{2}.
 
-Dem Beispiel des von General Motors vorgeschlagenem "Follow-the-leader"-Konzepts\footnote{Mathew T.V., 2014. Transportation Systems Engineering.} liegen zwei Annahmen zugrunde: umso höher die Geschwindigkeit, umso höher der Abstand zum Vordermann, aber niemals unterhalb des Sicherheitsabstands. Gleiches gilt für die Höchstgeschwindigkeit, welche einer asymptotische Grenze für die Geschwindigkeit bei geringen Verkehrsdichten entspricht.
+Dem Beispiel des von General Motors vorgeschlagenem "Follow-the-leader"-Konzepts\textsuperscript{2} liegen zwei Annahmen zugrunde: umso höher die Geschwindigkeit, umso höher der Abstand zum Vordermann, aber niemals unterhalb des Sicherheitsabstands. Gleiches gilt für die Höchstgeschwindigkeit, welche einer asymptotische Grenze für die Geschwindigkeit bei geringen Verkehrsdichten entspricht.
 
 Sei \(\Delta{x^t_{n+1}}\) den Abstand für das \( (n+1) \)-te Fahrzeug, den Sicherheitsabstand \(\Delta{x}_sicher\). \(v_{n+1}^t\) und \(v_n^t\) die Geschwindigkeiten, der notwendige Abstand ergibt sich dann zu:
 
@@ -128,8 +128,3 @@ Der Dichte-Fluss-Zusammenhang lässt sich grafisch darstellen, als:
     \caption{Hidden-Layer Darstellung.}
     \label{fig:hidden-layers}
 \end{figure}
-
-
-
-TODODODODOOD
-DISKRET!

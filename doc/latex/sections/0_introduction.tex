@@ -17,11 +17,10 @@ Ziel ist es den Verkehrsfluss in Städten so zu optimieren, dass der Verkehr mö
 
 Die aktuelle politische Situation im Kleinen, sowie der Klimawandel im Großen, treiben uns immer weiter dazu nach Möglichkeiten zu streben verantwortungsvoller mit unserer Umwelt umzugehen. Ein verbesserter Verkehrsfluss ermöglicht es nicht nur dem Reisenden (im Durchschnitt) schneller sein Ziel zu erreichen, er geht optimaler Weise auch einher mit weniger Standzeiten, weniger Motoren im Leerlauf und in energieaufwändigen Prozessen wie dem Anfahren, bei dem viel Energie aufgebracht wird und damit entsprechend viel CO\textsubscript{2} wie andere Schadstoffe produziert werden. Dies bedeutet auch weniger Verschleiß, was zu einem längeren Verwenden des Fahrzeugs und somit zu einer Reduktion der CO\textsubscript{2}-Bilanz\footnote{Wikipedia, \href{https://de.wikipedia.org/wiki/CO2-Bilanz}{CO\textsubscript{2}-Bilanz}.} der Herstellung zugute kommt.
 
-Zudem steigen die Anzahl zugelassener Fahrzeuge und das damit verbundene Verkehrsaufkommen seit Aufkommen des Automobils an fast stetig an\footnote{Statista, \href{https://www.statista.com/statistics/281134/number-of-vehicles-in-use-worldwide/}{\textit{engl.} Number of vehicles in use worldwide}. \\https://www.statista.com/statistics/281134/number-of-vehicles-in-use-worldwide/}\textsuperscript{,}\footnote{Statista, \href{https://de.statista.com/statistik/daten/studie/12131/umfrage/pkw-bestand-in-deutschland/}{PKW-Bestand in Deutschland}. \\https://de.statista.com/statistik/daten/studie/12131/umfrage/pkw-bestand-in-deutschland/}. Einzig die von der Bundesregierung ausgesprochene Abwrackprämie\footnote{Wikipedia, \href{https://de.wikipedia.org/wiki/Umweltpr\%C3\%A4mie}{Umweltprämie}.} im Jahr 2008 hat, zumindest in Deutschland, Wirkung gezeigt. Dennoch sind die Zahlen weiterhin am Steigen und somit ist auch künftig mit einer zunehmenden Belastung des Straßennetzes zu rechnen. Ein besserer Verkehrsfluss kann von einer höheren Effizienz der Auslastung der Kapazitäten der Straßen profitieren und dabei helfen Investitionen in infrastrukturelle Projekte im besten Fall zu vermeiden.
+Zudem steigen die Anzahl zugelassener Fahrzeuge und das damit verbundene Verkehrsaufkommen seit Aufkommen des Automobils an fast stetig an\footnote{Statista, \href{https://www.statista.com/statistics/281134/number-of-vehicles-in-use-worldwide/}{\textit{engl.} Number of vehicles in use worldwide}}\textsuperscript{,}\footnote{Statista, \href{https://de.statista.com/statistik/daten/studie/12131/umfrage/pkw-bestand-in-deutschland/}{PKW-Bestand in Deutschland}}. Einzig die von der Bundesregierung ausgesprochene Abwrackprämie\footnote{Wikipedia, \href{https://de.wikipedia.org/wiki/Umweltpr\%C3\%A4mie}{Umweltprämie}.} im Jahr 2008 hat, zumindest in Deutschland, Wirkung gezeigt. Dennoch sind die Zahlen weiterhin am Steigen und somit ist auch künftig mit einer zunehmenden Belastung des Straßennetzes zu rechnen. Ein besserer Verkehrsfluss kann von einer höheren Effizienz der Auslastung der Kapazitäten der Straßen profitieren und dabei helfen Investitionen in infrastrukturelle Projekte im besten Fall zu vermeiden.
 
 Abschließend besteht die sowohl emotionale als auch statistisch begründbare Vermutung, dass ein verbesserter Verkehrsfluss mit weniger und kürzeren Standzeiten zu einer angenehmeren Reise mit mehr Umsicht, Ruhe und weniger Unfällen führt. Statistisch ist eine Korrelation zwischen Fahrtzeit und der Wahrscheinlichkeit, dass ein Unfall eintritt zu erwarten.
 
-%TODO hier schon die erste formel - keine sorge, so leicht bleibt es nicht
 \begin{figure}[H]
     \centering
 	\( [ P_{strecke-kurz}(Unfall) < P_{strecke-lang}(Unfall) ] \)
@@ -34,11 +33,11 @@ Es hat sich gezeigt, dass neuronale Netze ein gutes Werkzeug im Umgang mit Probl
 
 \begin{multicols}{2}
 \begin{itemize}
-    \item Schrifterkennung\footnote{Pythonprogramming, \href{https://pythonprogramming.net/image-recognition-python/}{Image Recorgnition with Python}.\\https://pythonprogramming.net/image-recognition-python/} %TODO AMAZON STORY ALINAS DAD
-  \item Spracherkennung
-  \item Gesichtserkennung
+  \item Schrifterkennung\footnote{Pythonprogramming, \href{https://pythonprogramming.net/image-recognition-python/}{Image Recorgnition with Python}.}
+  \item Spracherkennung\footnote{Geoffrey Hinton et al., \href{https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/HintonDengYuEtAl-SPM2012.pdf}{Deep Neural Networks for Acoustig Modeling in Speec Recognition}}
+  \item Gesichtserkennung\footnote{Steve Lawrence, \href{http://www.cs.cmu.edu/afs/cs/user/bhiksha/WWW/courses/deeplearning/Fall.2016/pdfs/Lawrence_et_al.pdf}{Face Recognition: A Convolutional Neural-Network Approach}}
+  \item Aktienkursanalysen\footnote{Daniel Handloser, Karlsruhe Institute of Technology, \href{http://isl.anthropomatik.kit.edu/pdf/Handloser2017.pdf}{Prädiktion von Aktienkursen mit Neuronalen Netzen}}
   \item Kaufempfehlungen
-  \item Aktienkursanalysen
   \item Textübersetzungen
 \end{itemize}
 \end{multicols}
@@ -71,7 +70,7 @@ Daraus ergibt sich eine variable Umlaufzeit der Ampelphasen. Fest definierte Abl
 
 Weitere Elemente des Straßenverkehrs, die den Verkehrsfluss direkt beeinflussen können, sind zum Beipiel Fußgängerampeln mit Anforderung oder einem Zebrastreifen. Es ist zwar wichtig, möchte man ein ganzheitliches System implementieren, diese Elemente zu betrachten, in dieser Ausarbeitung werden diese Elemente jedoch noch außen vorgelassen.
 
-Der im Folgenden vorgestellte Optimierungsansatz mit dem Hopfield-Netzwerk betrachtet hingegen ein komplexes System an Straßen. Sozusagen einen Teilgraph des Verkehrsnetzes. Angewandt wurde das System im Zuge der Olympischen Spiele in Atlanta 1996\footnote{John F. G. and Khalid J. E., \href{https://www.aaai.org/Papers/Workshops/1993/WS-93-04/WS93-04-012.pdf}{Traffic Management Applications of Neural Networks}. \\https://www.aaai.org/Papers/Workshops/1993/WS-93-04/WS93-04-012.pdf}.
+Der im Folgenden vorgestellte Optimierungsansatz mit dem Hopfield-Netzwerk betrachtet hingegen ein komplexes System an Straßen. Sozusagen einen Teilgraph des Verkehrsnetzes. Angewandt wurde das System im Zuge der Olympischen Spiele in Atlanta 1996\footnote{John F. G. and Khalid J. E., \href{https://www.aaai.org/Papers/Workshops/1993/WS-93-04/WS93-04-012.pdf}{Traffic Management Applications of Neural Networks}}.
 
 % NOTES:
 % umlaufszeit 45 - 120 sek, Situation in HH

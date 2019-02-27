@@ -1,11 +1,11 @@
 \section{Neuronale Netze}
 
-Die nachfolgenden Ausführungen und Grafiken zum Schaffen eines grundlegenden Verständnisses für neuronale Netze, die hier verwendet werden, basieren im wesentlichen auf dem E-Book ``Neural Networks and Deep Learning''\footnote{Michael Nielsen, Neural Networks and Deep Learning.\newline(http://neuralnetworksanddeeplearning.com/index.html)}.
+Die nachfolgenden Ausführungen und Grafiken zum Schaffen eines grundlegenden Verständnisses für neuronale Netze, die hier verwendet werden, basieren im wesentlichen auf dem E-Book ``Neural Networks and Deep Learning''\footnote{Michael Nielsen, \href{http://neuralnetworksanddeeplearning.com/index.html}{Neural Networks and Deep Learning}}.
 
-Im Rahmen des maschinellen Lernens stellen die neuronalen Netze einen elementaren Ansatz dar, der in vielen weiteren Modellen Verwendung findet. Neuronale Netze wie das maschinelle Lernen an sich stellen eine andere Herangehensweise dar, als die klassischer, deterministischer Algorithmen. Anstatt dem System eine eindeutige Abfolge von Anweisungen mitzuteilen, um eine konkrete Problemstellung zu lösen, wird ein Modell definiert und dieses mit verschiedenen Beispielen konfrontiert - die Beispiele sind dabei Tupel aus Eingangsgröße und erwarteter Ausgangsgröße. Die Dimensionen von Eingangs- und Ausgangsgröße können sich dabei gleich sein, müssen es aber nicht. So können als Eingabe Bilder dienen und als Ausgaben konkrete Klassen, um beispielsweise Hunde von Katzen unterscheiden zu können. TODO
+Im Rahmen des maschinellen Lernens stellen die neuronalen Netze einen elementaren Ansatz dar, der in vielen weiteren Modellen Verwendung findet. Neuronale Netze wie das maschinelle Lernen an sich stellen eine andere Herangehensweise dar, als die klassischer, deterministischer Algorithmen. Anstatt dem System eine eindeutige Abfolge von Anweisungen mitzuteilen, um eine konkrete Problemstellung zu lösen, wird ein Modell definiert und dieses mit verschiedenen Beispielen konfrontiert - die Beispiele sind dabei Tupel aus Eingangsgröße und erwarteter Ausgangsgröße. Die Dimensionen von Eingangs- und Ausgangsgröße können sich dabei gleich sein, müssen es aber nicht. So können als Eingabe Bilder dienen und als Ausgaben konkrete Klassen, um beispielsweise Hunde von Katzen unterscheiden zu können\footnote{Andrea Baraldi und Flavio Parmiggiani, \href{http://ba1.geog.umd.edu/PapersBaraldi/TGARS95\_2\_[5].pdf}{A Neural Network for Unsupervised Categorization of Multivalued Input Patterns: An Application to Sattellite Image Clustering}}.
 Anstatt nun algorithmisch zu definieren, was einen Hund von einer Katze unterscheidet, wird es dem zuvor erstellten Modell überlassen, anhand der gegebenen Eingaben und erwarteten Ausgaben, eigenständig Regeln abzuleiten, um mit dessen Hilfe auch unbekannte Eingaben klassifizieren zu können.
 
-Dieser Ansatz wird auch als \textit{Soft Computing}\footnote{Wikipedia, (\textit{engl.} \href{https://en.wikipedia.com/wiki/Soft\_Computing}{Soft Computing}.} bezeichnet.
+Dieser Ansatz wird auch als \textit{Soft Computing}\footnote{Wikipedia, \textit{engl.} \href{https://en.wikipedia.com/wiki/Soft\_Computing}{Soft Computing}.} bezeichnet.
 
 \subsection{Grundprinzipichen}
 
@@ -150,19 +150,23 @@ Dabei beschreiben \textit{w} und \textit{b} die Gewichte bzw. die Bias des neuro
 dar. Der Vektor a beschreibt den Output des Netzes und \textit{\(y(x)\)} stellt den Erwartungswert zu einem Input \textit{x} dar.
 Das Ziel besteht nun darin, die Gewichte und Bias so zu manipulieren, dass die gezeigte Funktion einen möglichst kleinen
 Wert annimmt.
-
-\subsection{Überwachtes und Unüberwachtes Lernen}
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Beim Lernen wird zusätzlich zwischen überwachtem und unüberwachtem Lernen unterschieden. Beim Überwachten Lernen kommt die Information, wie gut ein produziertes Resultat ist, von außen ins Netz. Das unüberwachte Lernen kommt ohne diese direkte Infromation aus. Hier dienen dem Netz bekannte Funktionen dazu die Güte eines Ergebnisses zu bewerten und anhand dessen zu Lernen (die Gewichte anzupassen und neue Resultate zu erzeugen).
 
 \subsection{Arten und Anwendungsgebiete}
 
-Es gibt sie in allen Formen und Farben. Die Arten an neuronalen Netzen aufzulisten, wäre ein Akt der Unmöglichkeit. Quellen unterscheiden zwischen der Struktur des Netzes\footnote{}, also der Fragestellung, wie die Neuronen angeordnet sind oder den Anwendungsfällen\footnote{}.
+Es gibt sehr viele, die Arten an neuronalen Netzen vollumfassend aufzulisten, ist nicht möglich. Quellen unterscheiden zwischen der Struktur des Netzes, also der Fragestellung, wie die Neuronen angeordnet sind oder den Anwendungsfällen. Die beiden am weitesten verbreiteten Typen sind \textit{Convolutional Neural Networks}\footnote{Wikipedia, \href{https://de.wikipedia.org/wiki/Convolutional\_Neural\_Network}{Convolutional Neural Network}} und \textit{Recurrent Neural Networks}\footnote{Wikipedia, \href{https://en.wikipedia.org/wiki/Recurrent\_neural\_network}{Recurrent Neural Network}}
 
-Prinzipiell können neuronale Netze gut in Systemen verwandt werden, welche eine in irgendeiner Form logische Struktur haben. Am Besten lassen sich die Anwendungsgebiete in Beispielen spiegeln, in denen diese schon heute zum Einsatz kommen:
+\subsubsection*{Convolutional Neurnal Networks}
 
-\subsubsection*{Amazon-Verteilungszentrum, Handschrifterkennung}
-\subsubsection*{GO-Spiel}
-\subsubsection*{Videosynchronisierung}
+Die \textit{Convolutional Networks} sind beim Thema Bildverarbeitung erste Wahl. Die Verarbeitung der Bildinformationen wird durch die Struktur des Netzes beibehalten und benachbarte Informationen (Pixel) werden miteinander verarbeitet bzw. gefaltet/reduziert. Diese Netze kommen zum Beispiel bei Gesichtserkennung oder Bildkategorisierungen zum Einsatz.
+
+\subsubsection*{Recurrent Neurnal Networks}
+
+Die \textit{Recurrent Neural Networks} werden in der Regel dazu verwendet über Sequenzen an Daten Vorhersagen zu treffen. So können zum Beispiel Wetterdaten oder Aktienkurse analysiert und vorhergesagt werden.
+
+\paragraph{}
+Prinzipiell können neuronale Netze gut in Systemen verwandt werden, welche eine logische Struktur haben, die funktional jedoch nicht beschrieben werden kann. Weitere Anwendungsgebiete in denen diese schon heute zum Einsatz kommen sind Marketing, Verkauf und Medizin.
+
 
 
 %The mostly complete chart of Neural Networks, explained

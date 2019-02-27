@@ -1,9 +1,8 @@
-\section{Das Hopfield Netzwerk und der Verkehrsfluss (15-20 Minuten)}
+\section{Das Hopfield Netzwerk und der Verkehrsfluss}
 
 Ein Verkehrssystem kann als eine verwobene Anordnung von Straßen, deren Fluss durch Ampelschaltungen kontrolliert wird, verstanden werden. Um den maximalen Fluss für eine gegebene Dichte in einem gegebenen Graphen (Verkehrsnetz) zu ermöglichen, ist die Kontrolle der Ampeln grundlegend. Dies gibt insbesondere in diesem stark vereinfachten Gedankenmodell, aber auch in komplexeren Darstellungen kann von einem hohen Einfluss der Schaltungen auf den Verkehrsfluss ausgegangen werden.
 Da die optimale Schaltung vorher nicht verfügbar ist, ist ein Ansatz mit überwachtem Lernen nicht passend. Benötigt wird in diesem Fall eine Lösung, die mit unüberwachtem Lernen auskommt. In dem Fall, der hier vorgestellt wird, wurde sich für ein Hopfield-NetzTODO entschieden, da sich dessen Struktur sehr gut auf Verkehrsflussprobleme projizieren lässt.
 
-\subsection{Hopfield-Netze}
 Hopfield-Netze gehören zu den Feedbacknetzen. Sie bestehen aus nur einer Schicht, die sowohl als Ein- wie Ausgabelayer dient. Jedes Neuron ist mit allen anderen, ausgenommen sich selbst, verbunden. Sie geben \(-1\) oder \(+1\) aus, was im Allgemeinen bedeutet, dass das Neuren \textit{schaltet} oder eben nicht \textit{schaltet}. In diesem Anwendungsfall entspricht das der Grün- bzw. Rotphase.
 Die Verbindungen zwischen den Neuronen sind gewichtet und symmetrisch, heißt:
 
@@ -50,8 +49,9 @@ Hopfield-Netze haben einen globalen, skalaren Wert, den man als Energie bezeichn
 \(\theta _{i}\) Inputbias \\
 \end{minipage}
 
-Durch die Symmetrie der Gewichte in Kombination mit asynchronem Updaten wird gewährleistet, dass diese Energie-Funktion monoton abnimmt.TODO Daraus folgt, dass nach mehrmaligem Updaten die Energiefunktion ein lokales Minimum erreicht.\footnote{Jehosuha B., 1990. \href{ http://www.paradise.caltech.edu/CNS188/bruck90-conv.pdf}{On the Convergence Properties of the
+\subsubsection*{Über die Konvergenz der Energiefunktion}
+
+Durch die Symmetrie der Gewichte in Kombination mit asynchronem Updaten wird gewährleistet, dass diese Energie-Funktion monoton abnimmt. Daraus folgt, dass nach mehrmaligem Updaten die Energiefunktion ein lokales Minimum erreicht.\footnote{Jehosuha B., 1990. \href{ http://www.paradise.caltech.edu/CNS188/bruck90-conv.pdf}{On the Convergence Properties of the
 Hopfield Model}} Dies wurde von Hopfield selbst bewiesen.
 
-\subsection{Ampelschaltung}
-
+Der Beweis zeigt die Existenz einer Ljapunow-Funktion im Hopfield-Netz\footnote{David J.C. MacKay, \href{https://www.inference.org.uk/itprnn/book.pdf}{Information Theory, Inference, and Learning Algorithms, Seite 508 ff.}}. Eine solche Funktion hilft Stabilitätseigenschaften eines konkreten Systems zu überprüfen und ist Gegenstand der Stabilitätstheorie\footnote{Wikipedia, \href{https://de.wikipedia.org/wiki/Stabilitätstheorie}{Stabilitätstheorie}}. Diese bemerkenswerte Eigenschaft wurde in verschiedenen weiteren Papern behandelt, sehr schön auch von Jehoshua Bruck im Oktober 1990 \footnote{Jehoshua Bruck, \href{http://www.paradise.caltech.edu/CNS188/bruck90-conv.pdf}{On the Convergence Properties of the Hopfield Model}}.
